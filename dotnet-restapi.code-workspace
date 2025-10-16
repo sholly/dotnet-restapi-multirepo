@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"name": "dotnet-restapi.1",
+			"path": "/projects/dotnet-restapi.1"
+		},
+				{
+			"name": "dotnet-restapi.2",
+			"path": "/projects/dotnet-restapi.2"
+		},
+	],
+	"extensions": {
+		"recommendations": [
+			"redhat.vscode-yaml",
+			"mhutchie.git-graph",
+			"eamodio.gitlens",
+			"streetsidesoftware.code-spell-checker",
+			"johnpapa.winteriscoming",
+			"cnshenj.vscode-task-manager",
+            "ms-dotnettools.vscode-dotnet-runtime",
+            "muhammad-sammy.csharp",
+			"ms-mssql.mssql"
+		]
+	},
+	"settings": {
+		"workbench.colorTheme": "Winter is Coming (Dark Black)",
+		"workbench.preferredDarkColorTheme": "Winter is Coming (Dark Blue)",
+		"workbench.preferredLightColorTheme": "Winter is Coming (Light)",
+		"editor.wordWrap": "on",
+		"files.autoSave": "off",
+		"dotnetAcquisitionExtension.existingDotnetPath": [
+        {
+            "extensionId": "muhammad-sammy.csharp",
+            "path": "/usr/bin/dotnet"
+        }
+    ]
+	}
+}

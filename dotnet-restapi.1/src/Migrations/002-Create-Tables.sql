@@ -1,0 +1,8 @@
+IF NOT EXISTS(SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'TodoItems' AND TABLE_NAME = 'TodoItems')
+BEGIN
+    CREATE TABLE [TodoItems](
+	[Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [IsComplete] bit NOT NULL,
+    CONSTRAINT [PK_TodoItems] PRIMARY KEY ([Id]) )
+END
