@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: dotnet-restapi
+  name: dotnet-restapi-multirepo
 components:
   - name: tools
     container:
@@ -16,7 +16,7 @@ components:
         - name: HOME
           value: "/projects/home"
         - name: VSCODE_DEFAULT_WORKSPACE
-          value: "/projects/dotnet-restapi/dotnet-restapi.code-workspace"
+          value: "/projects/dotnet-restapi-multirepo/dotnet-restapi.code-workspace"
         - name: ASPNETCORE_URLS
           value: "http://0.0.0.0:5000"
       endpoints:
